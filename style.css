@@ -15,7 +15,12 @@ h1{
 }
 .container{
     background-color: #EEE9CA;
+    display: flex;
+    justify-content: center;
 }
 .bio{
-    width: 35rem;
+    font-weight: 190;
+}
+.headshot{
+    width:20rem;
 }
