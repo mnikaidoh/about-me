@@ -1,4 +1,21 @@
 body{
     font-family:sans-serif;
     padding: 0;
+    background-color: #5B6CA1;
+}
+h2,p,a{
+    font-family:'Montserrat',sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+h1{
+    font-family:'Montserrat',sans-serif;
+    font-weight:800;
+    color:#5B6CA1;
+}
+.container{
+    background-color: #EEE9CA;
+}
+.bio{
+    width: 35rem;
 }

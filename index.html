@@ -11,19 +11,48 @@
     <!-- Bootstrap Icons MAY NOT BE NEEDED~-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
+    <!-- Google Font Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet">
   </head>
 
   <body>
     <header>
-        <nav class="navbar fixed-top navbar-light bg-light">
-            <a class="navbar-brand" href="about.html"><button type="button" class="btn btn-primary rounded-pill">about</button>
-            fixed top</a> <!-- add buttons here, clickable-->
-            <a class="navbar-brand" href="projects.html"><button type="button" class="btn btn-primary rounded-pill">projects</button>
-            fixed top</a>
-        </nav>
-
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #EEE9CA;">
+        <!--<a class="navbar-brand" href="#">Navbar</a> can replace w image? -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">home 
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">projects </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
 
