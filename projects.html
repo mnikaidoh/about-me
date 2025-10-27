@@ -1,69 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>projects</title>
-    <!--add other stuff here, like font etc-->
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
 
-    <!-- Bootstrap Icons MAY NOT BE NEEDED~-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <title>projects</title>
+  <!--add other stuff here, like font etc-->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-    <!-- Google Font Import -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <header>
-      <!-- Navbar -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light"
-        style="background-color: #eee9ca"
-      >
-        <!--<a class="navbar-brand" href="#">Navbar</a> can replace w image? -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html"
-                >about </a
-              >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="projects.html">projects 
-                <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main></main>
-    <footer></footer>
-  </body>
+  <!-- Bootstrap Icons MAY NOT BE NEEDED~-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+<!-- animate.style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Google Font Import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #eee9ca">
+      <!--<a class="navbar-brand" href="#">Navbar</a> can replace w image? -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="projects.html">projects
+              <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container my-5 col-12">
+      <div class="yellowTextBox p-5 col-11">
+        <h1 class="animate__animated animate__fadeInDown">
+          my projects /<br>accomplishments
+        </h1>
+        <div class="projectList col-9">
+        <h2>Bachelor’s degree: Cognitive Science with a specialization in Computing</h2>
+        <p>This is where I learned coding languages and learned how to research.</p>
+        <br>
+        <h2>Research Experiment: “Learning from Varied Playback Speeds: An Investigation into Video Playback Speeds and Orders”</h2>
+        <p>This was a research project where I developed an experiment about current issues. Coming from the pandemic and increased online learning options, student shave begun to use different playback speeds when listening to lectures. This experiment was conducted to answer the question of how students retain information with a variety of video playback speeds.</p>
+        <br>
+        <h2>This About Me page!</h2>
+        <p>My first formal website project, complete with wireframes and JavaScript.</p>
+      </div>
+      </div>
+    </div>
+  </main>
+  <footer class=" text-center text-white" style="background-color: #425286;">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- GitHub -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/mnikaidoh" target="_blank"
+          role="button"><i class="bi bi-github"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mianikaidoh"
+          role="button"><i class="bi bi-linkedin"></i></a>
+
+        <!-- Song Page -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://mnikaidoh.github.io/Mia-Poem-or-Song/"
+          role="button"><i class="bi bi-file-music-fill"></i></a>
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <p class="smallText">
+        created by Mia Nikaidoh</p>
+    </div>
+  </footer>
+</body>
+
 </html>
